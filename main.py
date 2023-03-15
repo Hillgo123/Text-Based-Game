@@ -11,7 +11,7 @@ class store_options:
         self.event_color = event_color
         self.actions_color = actions_color
         self.all_colors = ['red', 'green', 'yellow',
-                           'blue', 'magenta', 'cyan', 'white', ]
+                           'blue', 'magenta', 'cyan', 'white']
 
 
 class store_responses:
@@ -68,7 +68,7 @@ def clear_console():
 def help():
     """Help menu."""
 
-    print(colored('At any time you can use the following commands:\n    h --help menu\n    r --restar from the beginning\n    q --quit game', opt.event_color))
+    print(colored('At any time you can use the following commands:\n    h --help menu\n    r --restart from the beginning\n    q --quit game', opt.event_color))
 
 
 def start():
